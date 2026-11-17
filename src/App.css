@@ -1,0 +1,10 @@
+/* Edit your global styling here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-color: #8fd3f4;
+}
