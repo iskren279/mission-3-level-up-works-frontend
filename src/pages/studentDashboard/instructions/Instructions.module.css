@@ -1,0 +1,34 @@
+.main {
+  flex: 1;
+  padding: 20px;
+
+  background-color: #8fd3f4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden; /* prevents page scrolling */
+  box-sizing: border-box;
+}
+
+.card {
+  width: 99%;
+  height: 95%; /* slightly shorter than 100% */
+
+  background-color: #d9f0ff;
+  border-radius: 20px;
+  padding: 40px;
+
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+}
+
+.content {
+  width: 60%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
